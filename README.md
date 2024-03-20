@@ -1,7 +1,7 @@
-repository-name
-# Repository Name
+nexrender
+# Nexrender
 
-Based on "ABC" at https://www.abc.com/
+Based on "Cloud Rendering with Paperspace" at https://medium.com/@alarmclockfilms/cloud-rendering-with-paperspace-610908eea3b2
 
 ## 100 - Introduction
 
