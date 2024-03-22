@@ -1,4 +1,4 @@
-# 300 - Step 3 – Launch Nexrender Worker
+# 300 - Step 3 – Launch Nexrender Server and Worker
 
 Visit the [GitHub Releases](https://github.com/inlife/nexrender/releases) page of Nexrender.
 
