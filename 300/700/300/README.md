@@ -80,6 +80,9 @@ C:\Users\<username>\Documents
 
 C:\Users\Public\Documents\Adobe
 
+![ae_render_only_node_txt_001](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/ebb6ae1c-20ba-4460-825a-a6233761e7b2)
+
+![ae_render_only_node_txt_002](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/25582c86-7b73-4948-844b-51103b4d317b)
 
 Limitations of the trial version
 
