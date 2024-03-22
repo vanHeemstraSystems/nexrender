@@ -19,7 +19,6 @@ Where you should replace the string for ```data``` with the following:
 '{"template":{"src":"file://z/movie-digital-twin/digital-twin.aep","composition":"digital-twin"}}'
 ```
 
+**TO DO**: Figure out how to point to the mapped network drive ...
+
 Also replace the string ```my.server.com``` in all locations with the **hostname** or **IP address** of the Paperspace machine (here: ... , or 0.0.0.0 when called locally).
-
-
-
