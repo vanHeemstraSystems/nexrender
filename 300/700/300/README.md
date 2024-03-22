@@ -166,4 +166,11 @@ nexrender-server-win64 -h
 
 ![nexrender-server_help_001](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/707e8448-e5bc-418e-be6b-e120949187e6)
 
+Now start the nexrender server with the chosen port and api secret configuration that matches the nexrender worker(s):
+
+```
+cd C:\Program Files\Nexrender
+nexrender-server-win64 --port=3050 --secret=myapisecret
+```
+
 MORE ...
