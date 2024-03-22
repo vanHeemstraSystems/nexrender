@@ -60,6 +60,27 @@ To install a render-only instance of After Effects CC, do the following:
 4. Quit After Effects.
 5. Create and place the ae_render_only_node.txt file as described in this [blog post](https://blogs.adobe.com/aftereffects/2012/06/codecs-and-the-render-engine-in-after-effects-cs6.html).
 
+RUN AERENDER IN NON-ROYALTY BEARING MODE
+
+After Effects CS5.5 had to be serialized on render-only machines due to licensing issues. In After Effects CS6 and later, you can now run aerender or use Watch Folder in a non-royalty bearing mode, so serialization not required.
+
+To ensure that After Effects is running in non-royalty bearing mode, place a blank file named **ae_render_only_node.txt** into the following location:
+
+Install After Effects on the render-only machine.
+
+Mac locations:
+
+/Users/<username>/Documents/
+
+/Users/Shared/Adobe/
+
+Windows locations:
+
+C:\Users\<username>\Documents
+
+C:\Users\Public\Documents\Adobe
+
+
 Limitations of the trial version
 
 The trial version of After Effects includes all of the codecs that are included with the full version of After Effects. This means that you can import and export to all of the supported file formats using the trial version. 
@@ -67,6 +88,3 @@ The trial version of After Effects includes all of the codecs that are included 
 The trial version of After Effects also includes the Keylight plug-in, mocha-AE, mocha shape, Cycore (CC) effects, and Color Finesse. 
 
 If your installation of After Effects is missing some third-party components, contact your system administrator to ensure that all licensed components have been installed correctly.
-
-MORE ...
-
