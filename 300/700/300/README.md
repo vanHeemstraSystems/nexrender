@@ -38,6 +38,12 @@ $ nexrender-worker \
 
 More info: [@nexrender/worker](https://github.com/inlife/nexrender/blob/master/packages/nexrender-worker)
 
+![nexrender-worker_help_001](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/72bd7d66-8de0-4c5b-88b9-4835bd31e80c)
+
+![nexrender-worker_help_002](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/f5c07071-d305-46d1-845e-4b43ab09a3d4)
+
+![nexrender-worker_help_003](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/4b8a3134-9292-4679-8626-5e639edcbc4a)
+
 Make sure to install Adobe After Effects Engine on your Paperspace Machine before continuing, as the Nexrender Worker needs it as a reference.
 
 Log in to [Adobe](https://commerce.adobe.com/store) with your Adobe Account and download [Adobe After Effects](![nexrender-executables-win64](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/05bd4cd2-e53f-4d1a-a589-2f4b9904f441)) to your Paperspace Machine and install it as a Render Engine. **NOTE**: Make sure to download and install the same Adobe After Effects version as the version you are editing with! You don't need an additional license, as this will be used for rendering only.
