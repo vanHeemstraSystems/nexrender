@@ -24,4 +24,8 @@ See [README.md](./500/README.md)
 
 See [README.md](./600/README.md)
 
+## 700 - Step 7 - Call the Nexrender Server to have the Workers start Rendering
+
+See [README.md](./700/README.md)
+
 MORE ...
