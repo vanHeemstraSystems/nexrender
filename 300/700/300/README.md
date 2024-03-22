@@ -42,7 +42,31 @@ Make sure to install Adobe After Effects Engine on your Paperspace Machine befor
 
 Log in to [Adobe](https://commerce.adobe.com/store) with your Adobe Account and download [Adobe After Effects](![nexrender-executables-win64](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/05bd4cd2-e53f-4d1a-a589-2f4b9904f441)) to your Paperspace Machine and install it as a Render Engine. **NOTE**: Make sure to download and install the same Adobe After Effects version as the version you are editing with! You don't need an additional license, as this will be used for rendering only.
 
+**[Installing a render-only instance of Adobe After Effects CC](https://helpx.adobe.com/nl/after-effects/using/setup-installation.html)**
 
+In addition to the full version of Adobe After Effects, you can also install additional copies on additional computers to use as After Effects render engines to assist with network rendering. 
+
+Before you start:
+
+If you have installed Creative Cloud applications on two computers, sign out of one of them by opening any of the applications and choosing Sign Out from the Help menu.
+
+You can sign back into Creative Cloud on this computer after the render-only instances of After Effects are installed.
+
+To install a render-only instance of After Effects CC, do the following:
+
+1. Go to the product page to download and install After Effects CC.
+2. When the installation is complete, start After Effects.
+3. Choose Sign Out from the Help menu.
+4. Quit After Effects.
+5. Create and place the ae_render_only_node.txt file as described in this blog post.
+
+Limitations of the trial version
+
+The trial version of After Effects includes all of the codecs that are included with the full version of After Effects. This means that you can import and export to all of the supported file formats using the trial version. 
+
+The trial version of After Effects also includes the Keylight plug-in, mocha-AE, mocha shape, Cycore (CC) effects, and Color Finesse. 
+
+If your installation of After Effects is missing some third-party components, contact your system administrator to ensure that all licensed components have been installed correctly.
 
 MORE ...
 
