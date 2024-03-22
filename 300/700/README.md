@@ -20,4 +20,8 @@ See [README.md](./400/README.md)
 
 See [README.md](./500/README.md)
 
+## 600 - Step 6 - Package After Effects Project for Rendering
+
+See [README.md](./600/README.md)
+
 MORE ...
