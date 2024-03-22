@@ -99,3 +99,16 @@ The trial version of After Effects includes all of the codecs that are included 
 The trial version of After Effects also includes the Keylight plug-in, mocha-AE, mocha shape, Cycore (CC) effects, and Color Finesse. 
 
 If your installation of After Effects is missing some third-party components, contact your system administrator to ensure that all licensed components have been installed correctly.
+
+Back to nexrender-worker.
+
+From a command line on the Paperspace machine execute the following command to start the nexrender worker:
+
+```
+cd C:\Program Files\Nexrender
+nexrender-worker-win64 \
+        --host=https://my.server.com:3050 \
+        --secret=myapisecret
+```
+
+Where **my.server.com** should be replaced by the hostname or IP address of the Paperspace machine (here: psgsjni6wn1p or 10.12.107.2), see https://console.paperspace.com/teu1osqtk/machines/psgsjni6wn1p/details .
