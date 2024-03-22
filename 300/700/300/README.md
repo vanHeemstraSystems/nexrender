@@ -186,4 +186,4 @@ nexrender-worker-win64 --host=http://0.0.0.0:3050 --secret=myapikey
 
 Nice!
 
-Now if we fire an API call to our nexrender server, instructing a render job, the nexrender will take it from there.
+Now if we fire an API call to our nexrender server, instructing a render job, the nexrender worker will take it from there.
