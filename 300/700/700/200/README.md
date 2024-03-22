@@ -2,18 +2,41 @@
 
 Based on [Using API](https://github.com/inlife/nexrender?tab=readme-ov-file#using-api)
 
-Now, after you've loaded up your worker and server nodes, they will need some jobs to be submitted to the server to start actual rendering. You can send a direct POST request:
+Now, after you've loaded up your worker and server nodes, they will need some jobs to be submitted to the server to start actual rendering. You can send a direct POST request from a Node application:
 
 ```
-curl \
-    --request POST \
-    --header "nexrender-secret: myapisecret" \
-    --header "content-type: application/json" \
-    --data '{"template":{"src":"http://my.server.com/assets/project.aep","composition":"main"}}' \
-    http://my.server.com:3050/api/v1/jobs
+npm install @nexrender/api --save
 ```
 
-Where you should replace the string for ```data``` with the following:
+```
+const { createClient } = require('@nexrender/api')
+
+const client = createClient({
+    host: 'http://my.server.com:3050',
+    secret: 'myapisecret',
+})
+
+const main = async () => {
+    const result = await client.addJob({
+        template: {
+            src: 'http://my.server.com/assets/project.aep',
+            composition: 'main',
+        }
+    })
+
+    result.on('created', job => console.log('project has been created'))
+    result.on('started', job => console.log('project rendering started'))
+    result.on('progress', (job, percents) => console.log('project is at: ' + percents + '%'))
+    result.on('finished', job => console.log('project rendering finished'))
+    result.on('error', err => console.log('project rendering error', err))
+}
+
+main().catch(console.error)
+```
+
+app.js
+
+Where you should replace the input for ```addJob``` with the following:
 
 ```
 '{"template":{"src":"file://z/movie-digital-twin/digital-twin.aep","composition":"digital-twin"}}'
