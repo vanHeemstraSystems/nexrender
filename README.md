@@ -11,6 +11,10 @@ Based on "A Deep Dive into Paperspace's Infrastructure" at https://blog.paperspa
 
 Based on "Setting-up a Paperspace Project from scratch" at https://medium.com/@aniketmish/setting-up-paperspace-project-from-scratch-bbece74eb1d5
 
+![Nexrender_Infrastructure_Overview](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/1fdf5586-876d-4f42-b061-cbb4a60f91d2)
+
+Nexrender Infrastructure Overview
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
