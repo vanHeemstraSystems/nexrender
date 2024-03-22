@@ -123,3 +123,45 @@ Right-click on C:\program Files\Nexrender\nexrender-worker-win64.exe and choose 
 
 Choose "Yes" in above prompt.
 
+You may see an error: "FetchError: request to https://10.12.107.2:3050/api/v1/jobs/pickup failed, reason: connect ECONNREFUSED 10.12.107.2:3050"
+
+Don't worry, this is because we have not yet started the Nexrender Server (which listens to port 3050 by default).
+
+Forward to nexrender-server.
+
+**NOTE**: We are running nexrender server on the same Paperspace machine as the nexrender-worker(s). This is not required, but limiting ourselves to one Paperspace machine saves in costs.
+
+**nexrender-server**
+
+Description:
+
+A CLI application which is responsible for job management, worker node cooperation, communications with the nexrender-worker instances, serves mainly as a producer in the nexrender network model.
+
+Technically speaking, its a very tiny HTTP server with minimal REST API support.
+
+Optional support for external databases can be added (like Redis, MongoDB, MySQL, etc.), with some of them already in place. Please check modules for more info.
+
+Supported platforms:<br/>
+Windows, macOS, Linux
+
+Requirements:<br/>
+None
+
+Example:<br/>
+
+```
+$ nexrender-server \
+        --port=3050 \
+        --secret=myapisecret
+```
+
+More info: [@nexrender/server](https://github.com/inlife/nexrender/blob/master/packages/nexrender-server)
+
+Let's start the nexrender-server first with help:
+
+```
+cd C:\Program Files\Nexrender
+nexrender-server-win64 -h
+```
+
+MORE ...
