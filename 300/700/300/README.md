@@ -58,7 +58,7 @@ To install a render-only instance of After Effects CC, do the following:
 2. When the installation is complete, start After Effects.
 3. Choose Sign Out from the Help menu.
 4. Quit After Effects.
-5. Create and place the ae_render_only_node.txt file as described in this blog post.
+5. Create and place the ae_render_only_node.txt file as described in this [blog post](https://blogs.adobe.com/aftereffects/2012/06/codecs-and-the-render-engine-in-after-effects-cs6.html).
 
 Limitations of the trial version
 
