@@ -6,6 +6,8 @@ Choose a binary for your platform (Windows or macOS) for the Nexrender worker. I
 
 Download the Nexrender Worker (here: nexrender-worker-win64.exe) to your Paperspace machine.
 
+![nexrender-downloads-win64](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/9d4e864c-5b1b-452d-835d-2dab15df9f01)
+
 From the [Documentation](https://github.com/inlife/nexrender?tab=readme-ov-file#nexrender-worker):
 
 **nexrender-worker**
