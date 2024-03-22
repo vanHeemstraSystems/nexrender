@@ -173,4 +173,17 @@ cd C:\Program Files\Nexrender
 nexrender-server-win64 --port=3050 --secret=myapisecret
 ```
 
-MORE ...
+If not already started, restart the nexrender worker as follows (**note**: since we are running server and worker on the same machine, we can use the IP address 0.0.0.0 simply). For simplicity we use http instead of http**s**:
+
+```
+cd C:\Program Files\Nexrender
+nexrender-worker-win64 --host=http://0.0.0.0:3050 --secret=myapikey
+```
+
+![nexrender-server_0000_3050_001](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/480ad210-7717-45e2-8dd3-742146e7529e)
+
+![nexrender-worker_0000_3050_001](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/33979890-9c5a-4ceb-bb96-e3d16e4c1b86)
+
+Nice!
+
+Now if we fire an API call to our nexrender server, instructing a render job, the nexrender will take it from there.
