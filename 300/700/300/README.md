@@ -42,6 +42,8 @@ Make sure to install Adobe After Effects Engine on your Paperspace Machine befor
 
 Log in to [Adobe](https://commerce.adobe.com/store) with your Adobe Account and download [Adobe After Effects](![nexrender-executables-win64](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/05bd4cd2-e53f-4d1a-a589-2f4b9904f441)) to your Paperspace Machine and install it as a Render Engine. **NOTE**: Make sure to download and install the same Adobe After Effects version as the version you are editing with! You don't need an additional license, as this will be used for rendering only.
 
+**NOTE**: If you get a warning that JavaScript is disabled in your Webbrowser (on Windows) and therefor the installation of Adobe After Effects is halted, reduce the level of Security from your Windows settings (from High to Medium), to be set to High again after a successful installation of After Effects. Changing JavaScript enabling in the browser won't help.
+
 **[Installing a render-only instance of Adobe After Effects CC](https://helpx.adobe.com/nl/after-effects/using/setup-installation.html)**
 
 In addition to the full version of Adobe After Effects, you can also install additional copies on additional computers to use as After Effects render engines to assist with network rendering. 
