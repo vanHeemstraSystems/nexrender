@@ -111,4 +111,4 @@ nexrender-worker-win64 \
         --secret=myapisecret
 ```
 
-Where **my.server.com** should be replaced by the hostname or IP address of the Paperspace machine (here: psgsjni6wn1p or 10.12.107.2), see https://console.paperspace.com/teu1osqtk/machines/psgsjni6wn1p/details .
+Where **my.server.com** should be replaced by the **hostname** or **IP address** of the Paperspace machine (here: psgsjni6wn1p or 10.12.107.2), see https://console.paperspace.com/teu1osqtk/machines/psgsjni6wn1p/details .
