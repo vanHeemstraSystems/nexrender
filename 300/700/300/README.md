@@ -112,3 +112,14 @@ nexrender-worker-win64 \
 ```
 
 Where **my.server.com** should be replaced by the **hostname** or **IP address** of the Paperspace machine (here: psgsjni6wn1p or 10.12.107.2), see https://console.paperspace.com/teu1osqtk/machines/psgsjni6wn1p/details .
+
+![nexrender-worker_inside_program_files](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/2e99d653-82ac-4e23-9753-c8aecbc14ef4)
+
+Follow the advice given above; please run nexrender with Administrator Privileges only ONE TIME, to install the patch.
+
+Right-click on C:\program Files\Nexrender\nexrender-worker-win64.exe and choose "Run as Administrator".
+
+![nexrender-worker_inside_program_files_patch](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/15a26895-8c04-417f-b775-3be360c8c40e)
+
+Choose "Yes" in above prompt.
+
