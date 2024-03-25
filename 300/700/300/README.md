@@ -100,6 +100,10 @@ The trial version of After Effects also includes the Keylight plug-in, mocha-AE,
 
 If your installation of After Effects is missing some third-party components, contact your system administrator to ensure that all licensed components have been installed correctly.
 
+Should you start the After Effects Render instance, the startup window will cleary show that this instance is intended as a Render Engine (only!, as opposed to an editing instance):
+
+![Adobe_After_Effects_2024_Render_Engine](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/dfc196c3-0452-48c0-bd51-56a378a023c5)
+
 Back to nexrender-worker.
 
 From a command line on the Paperspace machine execute the following command to start the nexrender worker:
