@@ -56,6 +56,8 @@ Optionally, you can also replace the ```~/.``` with whatever path you would like
 
 **NOTE**: A more efficient copy protocol is **Remote Sync (rsync)**. It copies over only what has changed between the tow locations, thus preventing costly copying over of files that have not changed since the previous copying. This saves time and resources. See [How To Use Rsync to Sync Local and Remote Directories](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories). 
 
+Consider using the macOS Graphical User Interface for RSync: [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
+
 ## In addition, Copy results from your machine back to your local machine
 
 See [Copy results from your machine back to your local machine](https://docs.digitalocean.com/products/paperspace/machines/how-to/transfer-data/).
