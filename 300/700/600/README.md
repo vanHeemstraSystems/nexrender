@@ -58,9 +58,9 @@ Optionally, you can also replace the ```~/.``` with whatever path you would like
 
 Consider using the macOS Graphical User Interface for RSync: [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX). See also [Rsync Server](http://bonhardcomputing.com/rsync-server/) and [Rsync Server in the Apple Store](https://apps.apple.com/id/app/rsync-server-basic-edition/id1255146085), which may be dated.
 
-## In addition, Copy results from your machine back to your local machine
+## In addition, Copy results from your Paperspace machine back to your local machine
 
-See [Copy results from your machine back to your local machine](https://docs.digitalocean.com/products/paperspace/machines/how-to/transfer-data/).
+See [Copy results from your Paperspace machine back to your local machine](https://docs.digitalocean.com/products/paperspace/machines/how-to/transfer-data/).
 
 Copying files back to your local machine is nearly the same as before. However, you have to flip the local and remote paths.
 
