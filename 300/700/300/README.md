@@ -104,6 +104,10 @@ Should you start the After Effects Render instance, the startup window will clea
 
 ![Adobe_After_Effects_2024_Render_Engine](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/dfc196c3-0452-48c0-bd51-56a378a023c5)
 
+Also when started, the Adobe After Effects Render Engine instance will show the render queue with potential renders being processed.
+
+![Adobe_After_Effects_2024_Render_Engine_Render_Queues](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/b98e2d0b-6608-4394-a0bb-1080ae33223e)
+
 Back to nexrender-worker.
 
 From a command line on the Paperspace machine execute the following command to start the nexrender worker:
