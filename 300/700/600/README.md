@@ -54,9 +54,9 @@ After that, replace ```machine-ip-address``` with the IP address listed for your
 
 Optionally, you can also replace the ```~/.``` with whatever path you would like to copy the data to on your machine. If you leave it as is, it is copied into your home directory on the machine. In our case we want to copy it directly to the folder ```movie-digital-twin``` on the Paperspace Shared Drive, hence ```/movie-digital-twin```.
 
-**NOTE**: A more efficient copy protocol is **Remote Sync (rsync)**. It copies over only what has changed between the tow locations, thus preventing costly copying over of files that have not changed since the previous copying. This saves time and resources. See [How To Use Rsync to Sync Local and Remote Directories](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories). 
+**NOTE**: A more efficient copy protocol is **Remote Sync (rsync)**. It copies over only what has changed between the tow locations, thus preventing costly copying over of files that have not changed since the previous copying. This saves time and resources. See [How To Use Rsync to Sync Local and Remote Directories](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories). And [rsync | The most powerful backup tool you're not using](https://www.youtube.com/watch?v=_D7sTx93gZ4).
 
-Consider using the macOS Graphical User Interface for RSync: [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX). See also [Rsync Server](http://bonhardcomputing.com/rsync-server/) and [Rsync Server in the Apple Store](https://apps.apple.com/id/app/rsync-server-basic-edition/id1255146085), which may be dated.
+Consider using the macOS Graphical User Interface for RSync: [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX). Or look for [Truck - The RSync Client for Mac](http://bonhardcomputing.com/truck/). See also [Rsync Server](http://bonhardcomputing.com/rsync-server/) and [Rsync Server in the Apple Store](https://apps.apple.com/id/app/rsync-server-basic-edition/id1255146085), which may be dated.
 
 ## In addition, Copy results from your Paperspace machine back to your local machine
 
