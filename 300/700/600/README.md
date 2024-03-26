@@ -38,6 +38,10 @@ Lookup the IP address and path of the Shared Drive as well as the connection cre
 
 In order to copy files from your local laptop or desktop to your machine, you need to have [SSH setup](https://docs.digitalocean.com/products/paperspace/accounts-and-teams/add-ssh-keys/) correctly on your local machine.
 
+![Screenshot 2024-03-26 at 14 16 19](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/205d90e3-f1cf-4c47-80b5-fee0cd7268d1)
+
+Copy the content of id_rsa.pub
+
 Once you have SSH setup, it only takes a single command to copy files to your Paperspace Machine's Shared Drive. However, you need to modify it first. This command should be run in your local terminal (while not connected via SSH to your machine).
 
 ```
