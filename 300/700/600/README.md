@@ -60,15 +60,15 @@ scp -i ~/.ssh/my-key.pem ~/path/to/local_file paperspace@machine-ip-address:~/.
 
 To use this command, replace ```my-key``` with the name of the SSH key you created to connect to your machine (don’t forget the ```.pem```).
 
-Next, replace ```~/path/to/local_file``` with the local file on your Paperspace Machine. Remember that ```~``` is short hand for your home directory, so if you wanted to upload a data set in your Documents folder you would type something like: ```~/Documents/my-data-set.csv```.
+Next, replace ```~/path/to/local_file``` with the local file on your local computer (e.g. ~/demo-file.txt). Remember that ```~``` is short hand for your home directory, so if you wanted to upload a data set in your Documents folder you would type something like: ```~/Documents/my-data-set.csv```.
 
 In our case, we want to copy over the content of a whole folder ```movie-digital-twin``` into the folder with the same name ```movie-digital-twin``` inside the Paperspace Machine's Shared Drive.
 
-After that, replace ```machine-ip-address``` with the IP address listed for your Paperspace Machine's Shared Drive in the console.
+After that, replace ```machine-ip-address``` with the (Public) IP address listed for your Paperspace Machine in the console.
 
-Optionally, you can also replace the ```~/.``` with whatever path you would like to copy the data to on your machine. If you leave it as is, it is copied into your home directory on the machine. In our case we want to copy it directly to the folder ```movie-digital-twin``` on the Paperspace Shared Drive, hence ```/movie-digital-twin```.
+Optionally, you can also replace the ```~/.``` with whatever path you would like to copy the data to on your Paperspace Machine. If you leave it as is, it is copied into your home directory on the machine. In our case we want to copy it directly to the folder ```movie-digital-twin``` on the Paperspace Shared Drive, hence ```/movie-digital-twin```.
 
-In our case the command becomes (where 184.105.6.111 is our Pubic IP address of our Machine):
+Hence, our command becomes (where 184.105.6.111 is our Pubic IP address of our Machine):
 
 ```
 scp -i ~/.ssh/id_rsa.pub ~/demo-file.txt paperspace@184.105.6.111:~/.
