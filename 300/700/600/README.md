@@ -46,7 +46,7 @@ Now take a copy of the **content** of above rsa_id.pub file from your local comp
 
 ![Screenshot 2024-03-26 at 14 34 52](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/6a1b7cfa-2365-4a37-bea1-0136eefbd792)
 
-Next, assign a previoulsy created Public IP address (here: 184.105.6.111) on Paperspace to your Machine:
+Next, assign a previoulsy created Public IP address (here: 184.105.188.243) on Paperspace to your Machine:
 
 ![Screenshot 2024-03-26 at 14 39 14](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/8841d80e-2233-4a3d-b473-a737cedf530e)
 
@@ -68,13 +68,13 @@ After that, replace ```machine-ip-address``` with the (Public) IP address listed
 
 Optionally, you can also replace the ```~/.``` with whatever path you would like to copy the data to on your Paperspace Machine. If you leave it as is, it is copied into your home directory on the machine. In our case we want to copy it directly to the folder ```movie-digital-twin``` on the Paperspace Shared Drive, hence ```/movie-digital-twin```.
 
-Hence, our command becomes (where 184.105.6.111 is our Pubic IP address of our Machine):
+Hence, our command becomes (where 184.105.188.243 is our Pubic IP address of our Machine):
 
 ```
-scp -i ~/.ssh/id_rsa.pub ~/demo-file.txt paperspace@184.105.6.111:~/.
+scp -i ~/.ssh/id_rsa.pub ~/demo-file.txt paperspace@184.105.188.243:~/.
 ```
 
-**NOTE**: If you receive following warning: "ssh: connect to host 184.105.6.11 port 22: Network is unreachable" this could be due to the Firewall on the Paperspace Machine (Windows). Advise is proved at [My Adventures with Paperspace | Day 1: Connection Issues](https://kaushikmoudgalya.medium.com/my-adventures-with-paperspace-day-1-connection-issues-ff7c390b1a48).
+**NOTE**: If you receive following warning: "ssh: connect to host 184.105.188.243 port 22: Network is unreachable" this could be due to the Firewall on the Paperspace Machine (Windows). Advise is proved at [My Adventures with Paperspace | Day 1: Connection Issues](https://kaushikmoudgalya.medium.com/my-adventures-with-paperspace-day-1-connection-issues-ff7c390b1a48).
 
 In short: 
 
