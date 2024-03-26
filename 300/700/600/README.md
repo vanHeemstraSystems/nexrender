@@ -71,7 +71,7 @@ Optionally, you can also replace the ```~/.``` with whatever path you would like
 In our case the command becomes (where 184.105.6.111 is our Pubic IP address of our Machine):
 
 ```
-scp -i ~/.ssh/id_rsa.pub ~/.ssh/id_rsa.pub paperspace@184.105.6.111:~/.
+scp -i ~/.ssh/id_rsa.pub ~/demo-file.txt paperspace@184.105.6.111:~/.
 ```
 
 **NOTE**: A more efficient copy protocol is **Remote Sync (rsync)**. It copies over only what has changed between the tow locations, thus preventing costly copying over of files that have not changed since the previous copying. This saves time and resources. See the excellent tutorial about rsync called [How To Use Rsync to Sync Local and Remote Directories](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories). And [rsync | The most powerful backup tool you're not using](https://www.youtube.com/watch?v=_D7sTx93gZ4).
