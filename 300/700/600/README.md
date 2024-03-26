@@ -42,6 +42,10 @@ In order to copy files from your local laptop or desktop to your machine, you ne
 
 We find the file id_rsa.pub here.
 
+Now take a copy of above rsa_id.pub file from your local computer and add in in below [ssh-keys page](https://console.paperspace.com/account/settings/ssh-keys), after clicking "**ADD NEW SSH KEY**":
+
+![Screenshot 2024-03-26 at 14 31 00](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/97bca39a-b896-4bcf-b2db-30710fc96278)
+
 Once you have SSH setup, it only takes a single command to copy files to your Paperspace Machine's Shared Drive. However, you need to modify it first. This command should be run in your local terminal (while not connected via SSH to your machine).
 
 ```
