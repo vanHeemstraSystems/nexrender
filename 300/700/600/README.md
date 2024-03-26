@@ -40,7 +40,7 @@ In order to copy files from your local laptop or desktop to your machine, you ne
 
 ![Screenshot 2024-03-26 at 14 16 19](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/205d90e3-f1cf-4c47-80b5-fee0cd7268d1)
 
-Copy the content of id_rsa.pub
+We find the file id_rsa.pub here.
 
 Once you have SSH setup, it only takes a single command to copy files to your Paperspace Machine's Shared Drive. However, you need to modify it first. This command should be run in your local terminal (while not connected via SSH to your machine).
 
@@ -57,6 +57,12 @@ In our case, we want to copy over the content of a whole folder ```movie-digital
 After that, replace ```machine-ip-address``` with the IP address listed for your Paperspace Machine's Shared Drive in the console.
 
 Optionally, you can also replace the ```~/.``` with whatever path you would like to copy the data to on your machine. If you leave it as is, it is copied into your home directory on the machine. In our case we want to copy it directly to the folder ```movie-digital-twin``` on the Paperspace Shared Drive, hence ```/movie-digital-twin```.
+
+In our case the command becomes (where 184.105.6.111 is our Pubic IP address of our Machine):
+
+```
+scp -i ~/.ssh/id_rsa.pub ~/.ssh/id_rsa.pub paperspace@184.105.6.111:~/.
+```
 
 **NOTE**: A more efficient copy protocol is **Remote Sync (rsync)**. It copies over only what has changed between the tow locations, thus preventing costly copying over of files that have not changed since the previous copying. This saves time and resources. See the excellent tutorial about rsync called [How To Use Rsync to Sync Local and Remote Directories](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories). And [rsync | The most powerful backup tool you're not using](https://www.youtube.com/watch?v=_D7sTx93gZ4).
 
