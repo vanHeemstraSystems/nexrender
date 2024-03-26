@@ -42,7 +42,7 @@ In order to copy files from your local laptop or desktop to your machine, you ne
 
 We find the file id_rsa.pub here.
 
-Now take a copy of above rsa_id.pub file from your local computer and add in in below [ssh-keys page](https://console.paperspace.com/account/settings/ssh-keys), after clicking "**ADD NEW SSH KEY**":
+Now take a copy of the **content** of above rsa_id.pub file from your local computer and add it in below [ssh-keys page](https://console.paperspace.com/account/settings/ssh-keys), after clicking "**ADD NEW SSH KEY**":
 
 ![Screenshot 2024-03-26 at 14 34 52](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/6a1b7cfa-2365-4a37-bea1-0136eefbd792)
 
