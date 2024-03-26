@@ -74,6 +74,10 @@ Hence, our command becomes (where 184.105.6.111 is our Pubic IP address of our M
 scp -i ~/.ssh/id_rsa.pub ~/demo-file.txt paperspace@184.105.6.111:~/.
 ```
 
+**NOTE**: If you receive following warning: "ssh: connect to host 184.105.6.11 port 22: Network is unreachable" this could be due to the Firewall on the Paperspace Machine (Windows). Advise is proved at [My Adventures with Paperspace | Day 1: Connection Issues](https://kaushikmoudgalya.medium.com/my-adventures-with-paperspace-day-1-connection-issues-ff7c390b1a48).
+
+In short: ... open the firewall for port 22 (ssh) on the Paperspace Machine.
+
 **NOTE**: A more efficient copy protocol is **Remote Sync (rsync)**. It copies over only what has changed between the two locations, thus preventing costly copying over of files that have not changed since the previous copying. This saves time and resources. See the excellent tutorial about rsync called [How To Use Rsync to Sync Local and Remote Directories](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories). And [rsync | The most powerful backup tool you're not using](https://www.youtube.com/watch?v=_D7sTx93gZ4).
 
 Consider using the macOS Graphical User Interface for RSync: [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX). Or look for [Truck - The RSync Client for Mac](http://bonhardcomputing.com/truck/). See also [Rsync Server](http://bonhardcomputing.com/rsync-server/) and [Rsync Server in the Apple Store](https://apps.apple.com/id/app/rsync-server-basic-edition/id1255146085), which may be dated. Or even [Acrosync for Mac](https://acrosync.com/mac.html). For rsync automation on macOS, read [rsync + Automator = free and easy backups for your Mac](https://www.practicallyefficient.com/2011/03/18/rsync-automator.html). In addition, automate the automation of rsync with [Trypa](https://apps.apple.com/us/app/trypa/id1666429734).
