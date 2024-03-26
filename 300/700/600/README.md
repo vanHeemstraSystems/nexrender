@@ -46,6 +46,12 @@ Now take a copy of above rsa_id.pub file from your local computer and add in in 
 
 ![Screenshot 2024-03-26 at 14 34 52](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/6a1b7cfa-2365-4a37-bea1-0136eefbd792)
 
+Next, assign a previoulsy created Public IP address (here: 184.105.6.111) on Paperspace to your Machine:
+
+![Screenshot 2024-03-26 at 14 39 14](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/8841d80e-2233-4a3d-b473-a737cedf530e)
+
+![Screenshot 2024-03-26 at 14 39 54](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/b076e981-fd25-45a5-b1b5-90b722affe58)
+
 Once you have SSH setup, it only takes a single command to copy files to your Paperspace Machine's Shared Drive. However, you need to modify it first. This command should be run in your local terminal (while not connected via SSH to your machine).
 
 ```
