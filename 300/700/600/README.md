@@ -104,8 +104,33 @@ By dragging them onto the Paperspace App and moving them to the shared drive (z:
 
 Here depicted inside the browser, but dragged across with the Paperspace App.
 
+We will be using the nexrender-cli-win64 executable to start e render process for the hello-world project.
 
-MORE ...
+**Note**: on MacOS you might need to change the permissions for downloaded file ```nexrender-cli-macos```, so it would be considered as an executable. You can do it by running: ```$ chmod 755 nexrender-cli-macos```
+
+A job is a single working unit in the nexrender ecosystem. It is a json document, that describes what should be done, and how it should be done. Minimal job description always should contain a pointer onto Adobe After Effects project, which is needed to be rendered, and a composition that will be used to render.
+
+The pointer is the ```src``` (string) field containing a URI pointing towards specified file, followed by ```composition``` (string) field, containing the name of the composition that needs to be rendered.
+
+```
+{
+    "template": {
+        "src": "file:///z:/hello-world/hello-world.aep",
+        "composition": "main"
+    }
+}
+```
+myjob.json
+
+Submitting this data to the binary will result in start of the rendering process:
+
+```
+$ nexrender-cli-win64 --file myjob.json
+```
+
+**Note**: its recommended to run ```nexrender-cli-win64 -h``` at least once, to read all useful information about available options.
+
+More info: [@nexrender/cli](https://github.com/inlife/nexrender/blob/master/packages/nexrender-cli)
 
 ## In addition, Copy results from your Paperspace machine back to your local machine
 
