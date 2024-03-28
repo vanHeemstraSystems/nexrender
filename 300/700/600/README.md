@@ -89,6 +89,21 @@ In short:
 
 Consider using the macOS Graphical User Interface for RSync: [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX). Or look for [Truck - The RSync Client for Mac](http://bonhardcomputing.com/truck/). See also [Rsync Server](http://bonhardcomputing.com/rsync-server/) and [Rsync Server in the Apple Store](https://apps.apple.com/id/app/rsync-server-basic-edition/id1255146085), which may be dated. Or even [Acrosync for Mac](https://acrosync.com/mac.html). For rsync automation on macOS, read [rsync + Automator = free and easy backups for your Mac](https://www.practicallyefficient.com/2011/03/18/rsync-automator.html). In addition, automate the automation of rsync with [Trypa](https://apps.apple.com/us/app/trypa/id1666429734).
 
+Until we get the connection working, we can simply drag files from our local computer onto the Paperspace App to copy them to the Paperspace Machine.
+
+For example, we have created a sample Adobe After Effects project (called ```movie-hello-world```) and collected the files from within the File > .. > Collect Files menu in After Effects. Our composition is called **main**. There is only a solid layed in blue gradient and a text layer with the text "Hello World !". So no images or other files.
+
+```
+hello-world.aep
+hello-worldReport.txt
+```
+
+By dragging them onto the Paperspace App and moving them to the shared drive (z:), they are now inside the ```movie-hello-world``` folder:
+
+
+
+
+
 ## In addition, Copy results from your Paperspace machine back to your local machine
 
 See [Copy results from your Paperspace machine back to your local machine](https://docs.digitalocean.com/products/paperspace/machines/how-to/transfer-data/).
