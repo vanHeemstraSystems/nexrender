@@ -207,6 +207,10 @@ This time the encoding follows from the rendering:
 
 It tells us the progress of the encoding:
 
+![nexrender-cli-win64-render-myjob-json-005](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/16969bb8-a432-40a1-89a1-b51303b5ddff)
+
+And finally, yes a movie at !
+
 MORE ...
 
 ## In addition, Copy results from your Paperspace machine back to your local machine
