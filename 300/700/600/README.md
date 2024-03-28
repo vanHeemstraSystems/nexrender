@@ -217,7 +217,11 @@ See:
 
 ![nexrender-cli-win64-render-myjob-json-007](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/d2ae6a4b-be8e-4db2-b52a-2e7a5a287e44)
 
+And voila!
 
+![nexrender-movie-hello-world-mp4-rendered-001](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/1f619370-9fae-4dfb-aa42-c032d7c9caa0)
+
+Playing z:/rendered/hello-world/hello-world.mp4
 
 ## In addition, Copy results from your Paperspace machine back to your local machine
 
