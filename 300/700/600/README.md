@@ -129,6 +129,8 @@ Please not that for After Effects 2023, it's vital to set up an Output Module, e
 ```
 myjob.json
 
+![nexrender-myjob-json-hello-world-mp4](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/9d7cdd74-5eb9-46cd-80e2-37946f22cd0c)
+
 Submitting this data to the binary will result in start of the rendering process:
 
 ```
