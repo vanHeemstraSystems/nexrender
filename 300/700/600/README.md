@@ -155,7 +155,11 @@ Right now, the older behavior is still the default, but this will change in the 
 
 Hence, we like to set the environment variable **NEXRENDER_ENABLE_AELOG_PROJECT_FOLDER** to **true**.
 
+![nexrender-cli-win64-render-myjob-json-003](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/887f48f8-5edb-461c-9038-c06efe3cdcf8)
 
+Hooray, we have a movie (in ...)!
+
+The rendered movie (*.mp4) can be found at: ...
 
 ## In addition, Copy results from your Paperspace machine back to your local machine
 
