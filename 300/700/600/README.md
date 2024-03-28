@@ -112,11 +112,18 @@ A job is a single working unit in the nexrender ecosystem. It is a json document
 
 The pointer is the ```src``` (string) field containing a URI pointing towards specified file, followed by ```composition``` (string) field, containing the name of the composition that needs to be rendered.
 
+**After Effects 2023 (and newer)**
+
+Please not that for After Effects 2023, it's vital to set up an Output Module, even if you want to rely on the default output module. After Effects 2023 rendering binary (aerender) in a lot of cases will not render a composition unless it has a configured output module. Additionally, AE2023 now allows rendering directly to mp4, so consider setting up a custom value for outputExt as well:
+
 ```
 {
     "template": {
         "src": "file:///z:/hello-world/hello-world.aep",
-        "composition": "main"
+        "composition": "main",
+        "outputModule": "H.264 - Match Render Settings - 15 Mbps",
+        "outputExt": "mp4",
+        "settingsTemplate": "Best Settings"
     }
 }
 ```
