@@ -159,7 +159,41 @@ Hence, we like to set the environment variable **NEXRENDER_ENABLE_AELOG_PROJECT_
 
 Hooray, we have rendered a movie (in ~151.069 seconds)!
 
-The rendered movie (*.mp4) can be found at: ...
+The rendered movie (*.mp4) can be found at: ... : (  Oh no, it was cleaned up as we did not specify any actions. 
+
+**Actions**
+You might've noticed that unless you added ```--skip-cleanup``` flag to our command, all rendered results will be deleted, and a big warning message will be shown every time you attempt to run the ```nexrender-cli-win64``` with our job.
+
+The reason is that we haven't defined any actions that we need to do after we finished actual rendering. Let's fix that and add a simple one, copy.
+
+![nexrender-myjob-json-hello-world-mp4-002](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/703d4c37-ea70-4a3a-9ad0-7ece71d993d2)
+
+```
+{
+    "template": {
+        "src": "file:///z:/hello-world/hello-world.aep",
+        "composition": "main",
+        "outputModule": "H.264 - Match Render Settings - 15 Mbps",
+        "outputExt": "mp4",
+        "settingsTemplate": "Best Settings"
+    },
+    "actions":{
+        "postrender": [
+            {
+                "module": "@nexrender/action-encode",
+                "preset": "mp4",
+                "output": "encoded.mp4"
+            },
+            {
+                "module": "@nexrender/action-copy",
+                "input": "encoded.mp4",
+                "output": "z:/rendered/hello-world/hello-world.mp4"
+            }
+        ]
+    }
+}
+```
+myjob.json
 
 ## In addition, Copy results from your Paperspace machine back to your local machine
 
