@@ -215,6 +215,8 @@ And finally, yes a movie at z:/rendered/hello-world/hello-world.mp4 !
 
 See:
 
+![nexrender-cli-win64-render-myjob-json-007](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/d2ae6a4b-be8e-4db2-b52a-2e7a5a287e44)
+
 
 
 ## In addition, Copy results from your Paperspace machine back to your local machine
