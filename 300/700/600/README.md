@@ -143,6 +143,20 @@ $ nexrender-cli-win64 --file C:\Users\paperspace\nexrender\myjob.json
 
 More info: [@nexrender/cli](https://github.com/inlife/nexrender/blob/master/packages/nexrender-cli)
 
+![nexrender-cli-win64-render-myjob-json-002](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/7029ed8f-c270-4d89-95cd-cabfef210e7a)
+
+**WARNING**: nexrender is changing the default aerender log path to the project folder. This is done to streamline the log management and enable efficient log cleanup.
+
+If you want to keep the older behavior and mute this message, please set the environment variable NEXRENDER_ENABLE_AELOG_LEGACY_TEMP_FOLDER to true.
+
+If you want to switch to the new behavior, please set the environment variable NEXRENDER_ENABLE_AELOG_PROJECT_FOLDER to true.
+
+Right now, the older behavior is still the default, but this will change in the next minor release. Estimated date of change to the new behavior: 2023-06-01.
+
+Hence, we like to set the environment variable **NEXRENDER_ENABLE_AELOG_PROJECT_FOLDER** to **true**.
+
+
+
 ## In addition, Copy results from your Paperspace machine back to your local machine
 
 See [Copy results from your Paperspace machine back to your local machine](https://docs.digitalocean.com/products/paperspace/machines/how-to/transfer-data/).
