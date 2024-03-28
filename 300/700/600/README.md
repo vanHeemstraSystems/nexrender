@@ -133,6 +133,8 @@ myjob.json
 
 Submitting this data to the binary will result in start of the rendering process:
 
+![nexrender-cli-win64-render-myjob-json](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/268b5a99-ea24-4bf8-9844-5fea211723e8)
+
 ```
 $ nexrender-cli-win64 --file C:\Users\paperspace\nexrender\myjob.json
 ```
