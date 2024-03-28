@@ -201,6 +201,12 @@ Make sure you have **saved** the changes to the file ```myjob.json```, before yo
 $ nexrender-cli-win64 --file C:\Users\paperspace\nexrender\myjob.json
 ```
 
+This time the encoding follows from the rendering:
+
+![nexrender-cli-win64-render-myjob-json-004](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/fb909506-7edc-49a4-917a-3bdddf9d9668)
+
+It tells us the progress of the encoding:
+
 MORE ...
 
 ## In addition, Copy results from your Paperspace machine back to your local machine
