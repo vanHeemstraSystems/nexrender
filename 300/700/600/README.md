@@ -134,7 +134,7 @@ myjob.json
 Submitting this data to the binary will result in start of the rendering process:
 
 ```
-$ nexrender-cli-win64 --file myjob.json
+$ nexrender-cli-win64 --file C:\Users\paperspace\nexrender\myjob.json
 ```
 
 **Note**: its recommended to run ```nexrender-cli-win64 -h``` at least once, to read all useful information about available options.
