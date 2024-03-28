@@ -98,7 +98,7 @@ hello-world.aep
 hello-worldReport.txt
 ```
 
-By dragging them onto the Paperspace App and moving them to the shared drive (z:), they are now inside the ```movie-hello-world``` folder:
+By dragging them onto the Paperspace App and moving them to the shared drive (z:), they are now inside the ```hello-world``` folder:
 
 ![hello-world-collected-files-on-shared-drive](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/e0723c44-21a6-492d-8a1a-12170d6c959a)
 
