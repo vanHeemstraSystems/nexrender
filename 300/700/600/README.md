@@ -100,9 +100,12 @@ hello-worldReport.txt
 
 By dragging them onto the Paperspace App and moving them to the shared drive (z:), they are now inside the ```movie-hello-world``` folder:
 
+![hello-world-collected-files-on-shared-drive](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/e0723c44-21a6-492d-8a1a-12170d6c959a)
+
+Here depicted inside the browser, but dragged across with the Paperspace App.
 
 
-
+MORE ...
 
 ## In addition, Copy results from your Paperspace machine back to your local machine
 
