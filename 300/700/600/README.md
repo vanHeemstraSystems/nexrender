@@ -195,6 +195,14 @@ The reason is that we haven't defined any actions that we need to do after we fi
 ```
 myjob.json
 
+Make sure you have **saved** the changes to the file ```myjob.json```, before you run below command again:
+
+```
+$ nexrender-cli-win64 --file C:\Users\paperspace\nexrender\myjob.json
+```
+
+MORE ...
+
 ## In addition, Copy results from your Paperspace machine back to your local machine
 
 See [Copy results from your Paperspace machine back to your local machine](https://docs.digitalocean.com/products/paperspace/machines/how-to/transfer-data/).
