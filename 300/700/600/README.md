@@ -131,6 +131,8 @@ myjob.json
 
 ![nexrender-myjob-json-hello-world-mp4](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/9d7cdd74-5eb9-46cd-80e2-37946f22cd0c)
 
+**WARNING**: Make sure the nexrender server and nexrender worker(s) are up an running.
+
 Submitting this data to the binary will result in start of the rendering process:
 
 ![nexrender-cli-win64-render-myjob-json](https://github.com/vanHeemstraSystems/nexrender/assets/1499433/268b5a99-ea24-4bf8-9844-5fea211723e8)
