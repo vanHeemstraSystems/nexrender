@@ -30,7 +30,7 @@ These files are now ready for rendering.
 
 === NEW - start ===
 
-We use the commercial rsync software called Resilio for Small Business from the company Resilio. **TO DO**: Add full description how we have set up Resilio on both our Mac computer and on the cloud-based Windows host to automatically sync our collected files and rendered output between these two.
+We use the commercial rsync software called [Resilio Sync (for Small Business)](https://resilio.com/sync-business/) from the company Resilio. **TO DO**: Add full description how we have set up Resilio on both our Mac computer and on the cloud-based Windows host to automatically sync our collected files and rendered output between these two.
 
 === NEW - end ===
 
