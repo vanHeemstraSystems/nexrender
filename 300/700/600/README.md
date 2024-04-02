@@ -24,6 +24,8 @@ Once the process has completed succesfully, you will notice in the ```movie-digi
 - An After Effects project file called the name of the composition that was collected (in case of all compositions, the name of the main composition, e.g. ```digital-twin.aep```)
 - A text file with the same name as the above project file + ```Report.txt```
 
+**WARNING**: Because an Adobe After Effects project when created or edited on a Mac OS computer will use macos paths to point to its assets (like images and videos), and when rendering on a different (Windows) machine those paths will not match. Hence, in our case - hwere we render on a cloud-based host, whilst editing on a local Mac - we are required to safe our Adobe After Effects project as **XML** (*.aepx). One saves an Adobe After Effects project as XML by going from "File" > "Save a Copy As XML...". The saved project will will have the extension *.aepx. XML files can be easily edited in a text editor. Hence, inside the *.aepx file manually change the paths to match those on the cloud-based render host. For example: ```\Volumes\Video Rendering Volume\hello-world\hello-world-collection\(Footage)\``` becomes ```Z:/hello-world/hello-world-collection/(Footage)/```. 
+
 These files are now ready for rendering.
 
 Next, we'll use Secure Copy Protocol (SCP) to copy the saved collected files over from our workstation (here: macos) to our Paperspace Machine.
