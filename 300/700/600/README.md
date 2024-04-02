@@ -14,11 +14,11 @@ Lastly, click the button **Collect...**.
 
 Now you are asked to navigate to which folder you want to save the collected files. 
 
-Choose a local directory to save the collected files to, for example a folder named ```movie-digital-twin```.
+Choose a local directory to save the collected files to, for example a folder named ```digital-twin/digital-twin-collection```.
 
 Click the button **Save**.
 
-Once the process has completed succesfully, you will notice in the ```movie-digital-twin``` folder there to be three (new) items:
+Once the process has completed succesfully, you will notice in the ```digital-twin/digital-twin-collection``` folder there to be three (new) items:
 
 - A folder called (Footage)
 - An After Effects project file called the name of the composition that was collected (in case of all compositions, the name of the main composition, e.g. ```digital-twin.aep```)
