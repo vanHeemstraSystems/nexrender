@@ -28,6 +28,12 @@ Once the process has completed succesfully, you will notice in the ```movie-digi
 
 These files are now ready for rendering.
 
+=== NEW - start ===
+
+We use the commercial rsync software called Resilio for Small Business from the company Resilio. **TO DO**: Add full description how we have set up Resilio on both our Mac computer and on the cloud-based Windows host to automatically sync our collected files and rendered output between these two.
+
+=== NEW - end ===
+
 Next, we'll use Secure Copy Protocol (SCP) to copy the saved collected files over from our workstation (here: macos) to our Paperspace Machine.
 
 See also [How to Transfer Data to Paperspace](https://docs.digitalocean.com/products/paperspace/machines/how-to/transfer-data/).
